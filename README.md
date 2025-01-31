@@ -3,7 +3,8 @@
 1. **Launch the Streamlit app**:
 
    ```bash
-   streamlit run src/app.py
+   uv sync
+   uv run src/app.py
 
    ```
 
