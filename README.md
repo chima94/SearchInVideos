@@ -7,8 +7,6 @@ Enter/modify your analysis prompt in the text input field
 
 AI Provider:
 
-Choose between:
-
 ☁️ Gemini API
 
 Credentials:
