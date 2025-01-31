@@ -1,14 +1,36 @@
-Usage
-Start the Streamlit application:
-uv run src/app.py
-Access the web interface at http://localhost:8501
+📋 Configuration Guide
 
-Configure your analysis:
+1. Analysis Setup
+   Prompt Configuration:
 
-Enter or customize the analysis prompt
-Choose between Gemini API or Vertex AI
-Provide necessary credentials
-Select the video folder to process
-Click "Convert Videos to Audio" to convert your videos to the proper Audio format
+Enter/modify your analysis prompt in the text input field
 
-Click "Analyze Audio Files" to run the analysis
+AI Provider:
+
+Choose between:
+
+☁️ Gemini API
+
+Credentials:
+
+Provide credentials for your chosen provider
+
+2. Video Processing
+   Folder Selection:
+
+Use the directory picker to select your video folder
+
+Conversion:
+
+Click the Convert Videos to Audio button to:
+
+Convert videos to audio format (WAV/MP3)
+
+Prepare files for analysis
+
+3. Run Analysis
+   Click the Analyze Audio Files button to:
+
+Process audio through the selected AI model
+
+Generate results in the output panel
