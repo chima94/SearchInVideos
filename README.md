@@ -1,34 +1,41 @@
 📋 Configuration Guide
 
-1. Analysis Setup
+1. **Launch the Streamlit app**:
+
+   ```bash
+   streamlit run src/app.py
+
+   ```
+
+2. Analysis Setup
    Prompt Configuration:
 
-Enter/modify your analysis prompt in the text input field
+   Enter/modify your analysis prompt in the text input field
 
-AI Provider:
+   AI Provider:
 
-☁️ Gemini API
+   ☁️ Gemini API
 
-Credentials:
+   Credentials:
 
-Provide credentials for your chosen provider
+   Provide credentials for your chosen provider
 
-2. Video Processing
+3. Video Processing
    Folder Selection:
 
-Use the directory picker to select your video folder
+   Use the directory picker to select your video folder
 
-Conversion:
+   Conversion:
 
-Click the Convert Videos to Audio button to:
+   Click the Convert Videos to Audio button to:
 
-Convert videos to audio format (WAV/MP3)
+   Convert videos to audio format (WAV/MP3)
 
-Prepare files for analysis
+   Prepare files for analysis
 
-3. Run Analysis
+4. Run Analysis
    Click the Analyze Audio Files button to:
 
-Process audio through the selected AI model
+   Process audio through the selected AI model
 
-Generate results in the output panel
+   Generate results in the output panel
